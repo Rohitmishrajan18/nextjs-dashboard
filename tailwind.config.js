@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+import forms from '@tailwindcss/forms'; // Import the plugin using ESM syntax
+
 const config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -27,7 +29,7 @@ const config = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [forms], // Use the plugin that was imported
 };
 
 export default config;

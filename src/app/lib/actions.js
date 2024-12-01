@@ -1,6 +1,6 @@
 import NextAuth from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
-import { authConfig } from '/Users/rohit.mishra/Downloads/nextjs-dashboard/auth.config.js'; // Adjust path if necessary
+import { authConfig } from '../../../auth.config.js'; // Adjust path if necessary
 import { z } from 'zod';
 import { sql } from '@vercel/postgres';
 import bcrypt from 'bcryptjs';

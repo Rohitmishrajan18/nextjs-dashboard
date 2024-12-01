@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "NODE_ENV=production next build",  // Set production environment for build
+    "build": "NODE_ENV=production next build",
     "dev": "next dev",
     "lint": "next lint",
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "start": "next start",
-    "test": "jest"  // Ensure jest only runs with the test script
+    "test": "jest"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
